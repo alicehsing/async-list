@@ -89,3 +89,85 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+#candy-list-container {
+    margin-top: 10px;
+    /* border: solid 2px #6d6875; */
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.candy-item {
+    border: solid 2px #b5838d;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #b5838d ;
+    color:#ffcdb2;
+}
+
+#plant-list-container {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.plant-item {
+    border: solid 2px #2d6a4f;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #d8f3dc ;
+    color: #2d6a4f;
+    width: 250px;
+}
+
+.plant-img {
+    width: 180px;
+    height:250px;
+    margin-bottom: 10px;
+}
+
+#show-list-container {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef233c;
+}
+
+.show-item {
+    border: solid 20px white;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#food-list-container {
+    margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f3ee;
+}
+
+.food-item {
+    border: solid 2px #e0afa0;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.food-img {
+    width: 200px;
+    height:200px;
+    margin-bottom: 10px;
+}
